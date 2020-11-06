@@ -1,11 +1,21 @@
 {
-  "name": "Anonygram",
-  "description": "Bot By Anonymous Indian",
-  "repository": "https://github.com/anonyindian/test/edit/main",
-  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Gnome-stock_person_bot.svg/1200px-Gnome-stock_person_bot.svg.png",
-  "keywords": ["Anonygram", "Bot", "AnonyIndian"]
-
-  "buildpacks": [{
-   "url": "heroku/python"
-  }]
+  "name": "Small Sharp Tool",
+  "description": "This app does one little thing, and does it well.",
+  "keywords": [
+    "productivity",
+    "HTML5",
+    "scalpel"
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/stomita/heroku-buildpack-phantomjs"
+    }
+  ],
+  "environments": {
+    "test": {
+      "scripts": {
+        "test": "bundle exec rake test"
+      }
+    }
+  }
 }
