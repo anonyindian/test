@@ -1,7 +1,7 @@
 {
-  "name": "Node.js Sample",
-  "description": "A barebones Node.js app using Express",
-  "repository": "https://github.com/heroku/node-js-getting-started",
-  "logo": "https://node-js-sample.herokuapp.com/node.png",
-  "keywords": ["node", "express", "static"]
+  "name": "Anonygram",
+  "description": "Bot By Anonymous Indian",
+  "repository": "https://github.com/anonyindian/test/edit/main",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Gnome-stock_person_bot.svg/1200px-Gnome-stock_person_bot.svg.png",
+  "keywords": ["Anonygram", "Bot", "AnonyIndian"]
 }
