@@ -4,4 +4,8 @@
   "repository": "https://github.com/anonyindian/test/edit/main",
   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Gnome-stock_person_bot.svg/1200px-Gnome-stock_person_bot.svg.png",
   "keywords": ["Anonygram", "Bot", "AnonyIndian"]
+
+  "buildpacks": [{
+   "url": "heroku/python"
+  }]
 }
